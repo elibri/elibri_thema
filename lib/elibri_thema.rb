@@ -29,4 +29,15 @@ module ElibriThema
 
      return root_categories
   end
+
+  def self.category_full_names(tree = ElibriThema::nested_categories, parent_names = nil)
+     categories = {}
+     tree.each do |cat|
+       full_category_name = [parent_names, cat[:name]].compact.join(" / ")
+       categories[cat[:code]] = full_category_name
+       categories.merge!(category_full_names(cat[:children], full_category_name))
+     end
+
+    return categories
+  end
 end
