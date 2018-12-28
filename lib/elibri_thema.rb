@@ -14,6 +14,12 @@ module ElibriThema
     end
   end
 
+  def self.blocked_codes
+    ["XQ", "XA", "FY", "5A", "5H", "5J", "5L", "5P"] +
+    ["6A", "6B", "6C", "6D", "6E", "6F", "6G", "6H", "6J", "6K", "6L", "6M", "6N", "6P", "6Q", "6R", "6S", "6T", "6U", "6V", "6W", "6X"] +
+    ["4C", "4G", "4L", "4T", "4Z"]
+  end
+
   def self.nested_categories
      by_code = {}
      root_categories = []
