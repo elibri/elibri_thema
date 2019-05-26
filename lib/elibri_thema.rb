@@ -5,7 +5,7 @@ require "nokogiri"
 module ElibriThema
 
   def self.flat_categories
-    dom = Nokogiri::XML(File.read(Config.new.root + "assets/Thema_v1.3.0_pl.xml"))
+    dom = Nokogiri::XML(File.read(Config.new.root + "assets/Thema_v1.3.2_pl.xml"))
     @flat_categories ||= dom.css("Code").map  do |code|
       { code: code.css("CodeValue")[0].inner_text, 
         name: code.css("CodeDescription")[0].inner_text, 
