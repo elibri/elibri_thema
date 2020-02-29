@@ -11,7 +11,7 @@ GEM
     minitest (5.11.3)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
-    rake (10.5.0)
+    rake (13.0.1)
 
 PLATFORMS
   ruby
@@ -21,7 +21,7 @@ DEPENDENCIES
   elibri_thema!
   minitest (~> 5.0)
   nokogiri
-  rake (~> 10.0)
+  rake (~> 13.0)
 
 BUNDLED WITH
    1.16.4
