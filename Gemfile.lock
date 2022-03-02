@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    elibri_thema (0.1.0)
+    elibri_thema (0.1.5)
       nokogiri
 
 GEM
@@ -13,17 +13,17 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     racc (1.6.0)
-    rake (10.5.0)
+    rake (13.0.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler
   elibri_thema!
   minitest (~> 5.0)
   nokogiri
-  rake (~> 10.0)
+  rake (~> 13.0)
 
 BUNDLED WITH
-   1.16.4
+   2.1.4
