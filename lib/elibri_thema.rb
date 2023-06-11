@@ -19,7 +19,9 @@ module ElibriThema
   def self.unused_subtrees
     ["4Z-CA-", "4Z-CB-", "4Z-DE-", "4Z-DK-", "4Z-ES-", "4Z-FR-", "4Z-GB-", "4Z-IE-", "4Z-IT-", "4Z-US-", "4Z-AA-",
      "4Z-AR-", "4Z-BO-", "4Z-CL-", "4Z-CO-", "4Z-CR-", "4Z-CU-", "4Z-DO-", "4Z-EC-", "4Z-FI-", "4Z-GT-", "4Z-HN-",
-     "4Z-MX-", "4Z-NI-", "4Z-NO-", "4Z-PA-", "4Z-PE-", "4Z-PY-", "4Z-SV-", "4Z-UY-", "4Z-VE-"]
+     "4Z-MX-", "4Z-NI-", "4Z-NO-", "4Z-PA-", "4Z-PE-", "4Z-PY-", "4Z-SV-", "4Z-UY-", "4Z-VE-", "4Z-RO-", "4Z-KR",
+     "4Z-JP-", "4Z-IN-", "4Z-BE-", "4Z-AU-", "4Z-BR",  "4Z-CZ-", "4Z-HU-", "4Z-NZ-", "4Z-PT-", "4Z-SG-", "4Z-SK-",
+     "4Z-TR-", "4Z-ZA-"]
 
   end
 
